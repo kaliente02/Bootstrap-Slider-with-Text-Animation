@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href="slider.css">
+    <script src="slider.js"></script>
+
+
+
+    <title>Slider</title>
+</head>
+<body>
+    <div class="ss-container">
+        <div class="mySlides fade">
+            <img src="https://www.w3schools.com/css/img_5terre.jpg" class="pics"/>
+        </div>
+        <div class="mySlides fade">
+            <img src="https://www.w3schools.com/css/img_forest.jpg" class="pics"/>
+        </div>
+        <div class="mySlides fade">
+            <img src="https://www.w3schools.com/css/img_lights.jpg" class="pics"/>
+        </div>
+        <div class="mySlides fade">
+            <img src="https://www.w3schools.com/css/img_mountains.jpg" class="pics"/>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    
+    <!--    Putting in the click dots   -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+</body>
+</html>
